@@ -6,7 +6,14 @@ variable "ecs_dev_service_name" {}
 
 variable "github_user" {}
 
+variable "repo_user" {}
+
+variable "repo_password" {}
+
 variable "github_repository" {}
+
+variable "github_token" {}
+
 
 variable "github_repository_branch" {
   default = "master"
